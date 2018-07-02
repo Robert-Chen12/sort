@@ -29,7 +29,7 @@ void quick_sort(int A[], int n){
         r--;
         i--;
     }
-    else if(A[i]==pivot){
+    else {
     	i++;
     }
   }
